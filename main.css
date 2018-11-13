@@ -1,0 +1,9 @@
+header {
+    border: 1px goldenrod solid
+}
+header ul {
+    display: flex;
+}
+.active {
+    color: yellow
+}
