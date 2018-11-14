@@ -2,8 +2,41 @@ header {
     border: 1px goldenrod solid
 }
 header ul {
-    display: flex;
+    list-style-type: none;
+}
+header li {
+    display: inline;
+    padding: 5px
+}
+.disabled {
+    color: gray;
+}
+a .disabled, a.disabled {
+    color: purple;
 }
 .active {
     color: yellow
+}
+.parent > div > div {
+    color: red;
+}
+.parent > div > h4 + div {
+    color: blue;
+}
+.parent > div > div + h4{
+    background-color: red;
+}
+.parent > div > h4 + div + h4 {
+    background-color: blue;
+}
+.grandparent > h4 {
+    border: 1px solid;
+    border-radius: 5px;
+}
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+footer input {
+    height: 25px;
 }
